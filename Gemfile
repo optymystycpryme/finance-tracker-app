@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.3'
 gem 'coffee-rails', '~> 4.2'
 gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.1'
+gem "font-awesome-rails"
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'pg', '>= 0.18', '< 2.0'
