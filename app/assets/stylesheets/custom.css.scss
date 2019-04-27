@@ -1,3 +1,25 @@
+body {
+  font-family: 'Gugi', cursive;
+}
+
+.jumbo-background {
+  background: image-url('dark-wall.jpg') no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.welcome-text {
+  color: #fff !important;
+}
+
+.welcome-paragraph {
+  text-align: justify;
+  background-color: #fff;
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
 .results-block {
    display: inline-block;
  }
@@ -13,4 +35,21 @@
 .user-name {
   padding-top: 15px;
   color: #777 !important;
+}
+
+.table-row-friends td {
+  padding: 1px;
+}
+
+@media (max-width: 994px) {
+  .stock-lookup-btn {
+    margin-top: 10px !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 770px) {
+  .user-name {
+    display: none !important;
+  }
 }
